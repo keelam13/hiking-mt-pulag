@@ -28,7 +28,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 47px;
 }
 
 header a {
@@ -62,7 +61,7 @@ nav {
     background-color: whitesmoke;
     width: 100%;
     left: 0;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     box-shadow: 0 2px 4px #3a3a3a;
     display: none;
     top: 100%;
@@ -92,4 +91,38 @@ main {
 /* Footer */
 footer {
     background-color: bisque;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+     #menu {
+        display: flex;
+     }
+
+     #menu > li {
+        padding-left: 1rem;
+     }
+
+     .nav-toggle-label {
+        display: none;
+     }
+
+     #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+     }
+
+     /* Main content */
+     main {
+        margin-top: 82px;
+     }
 }
