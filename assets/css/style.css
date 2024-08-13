@@ -105,7 +105,6 @@ main {
     background-color: aquamarine;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
 }
 
 /* Footer */
@@ -157,7 +156,7 @@ main {
 
      /* Main content */
      main {
-        margin-top: 87px;
+        margin-top: 20px;
      }
 }
 
