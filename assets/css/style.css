@@ -27,12 +27,15 @@ header {
     box-shadow: 0 2px 4px #3a3a3a;
 }
 
-h1 {
-    font-family: 'Lobster', sans-serif;
+header a {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 1px;
+    color: #242925;
 }
 
-#logo {
-    text-decoration: none;
+h1 {
+    font-family: 'Lobster', sans-serif;
 }
 
 /* Main Content */
