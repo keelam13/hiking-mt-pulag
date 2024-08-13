@@ -38,6 +38,19 @@ h1 {
     font-family: 'Lobster', sans-serif;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: .5em;
+}
+
+.active {
+    border-bottom: 1px solid #242925;
+}
 /* Main Content */
 main {
     background-color: aquamarine;
