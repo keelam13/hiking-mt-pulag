@@ -22,6 +22,10 @@ header {
     background-color: antiquewhite;
 }
 
+h1 {
+    font-family: 'Lobster', sans-serif;
+}
+
 /* Main Content */
 main {
     background-color: aquamarine;
