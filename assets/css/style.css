@@ -151,9 +151,13 @@ main {
         margin: 0 0.5rem;
      }
 
+     #hero {
+        margin-top: 82px;
+     }
+
      /* Main content */
      main {
-        margin-top: 82px;
+        margin-top: 87px;
      }
 }
 
