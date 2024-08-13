@@ -20,7 +20,7 @@ body {
 /* Header */
 header {
     background-color: whitesmoke;
-    padding: 0 1rem;
+    padding: .20rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -28,6 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    height: 47px;
 }
 
 header a {
@@ -85,6 +86,7 @@ main {
     background-color: aquamarine;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
