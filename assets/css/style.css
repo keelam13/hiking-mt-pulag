@@ -185,6 +185,10 @@ div.scroll-gallery img {
      main {
         margin-top: 0;
      }
+
+     #about-us {
+        text-align: center;
+     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
