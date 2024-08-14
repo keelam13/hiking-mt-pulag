@@ -117,6 +117,18 @@ main {
     flex: 1 0 auto;
 }
 
+/* Gallery */
+div.scroll-gallery {
+    background-color: #242925;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+div.scroll-gallery img {
+    padding: 5px;
+  }
+
 
 
 
