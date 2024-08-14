@@ -119,7 +119,7 @@ main {
 
 /* Gallery */
 div.scroll-gallery {
-    background-color: #242925;
+    background-color: lightgray;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -129,7 +129,9 @@ div.scroll-gallery img {
     padding: 5px;
   }
 
-
+.hidden-header {
+    display: none;
+}
 
 
 /* Footer */
