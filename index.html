@@ -42,7 +42,7 @@
             <p>Want to go hiking but no one to go with or don't know where to go to? Well, look no more! Join us in conquering the 
                 highest peak in Luzon and witness expectacular landscape views, sunrise or sunset, 
                 sea of clouds or the milkyway. Open to all level of hikers, wether you're a begginer 
-                or advanced, we've got a trail that's just right for you.</p>
+                or an experienced hiker, we've got a trail that's just right for you.</p>
         </section>
         <section>
             <h2 class="hidden-header">Gallery</h2>
@@ -99,7 +99,35 @@
             </div>
         </section>
         <br>
-        <section id="join-us" class="main-content">Join Us</section>
+        <section>
+            <form id="sign-up" action="https://formdump.codeinstitute.net" method="post">
+                <h2>Join us now!</h2>
+                <label for="first-name">First Name</label>
+                <input id="first-name" type="text" name="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input id="last-name" type="text" name="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input id="email-address" type="email" name="email-address" class="text-input" required>
+                <br>
+                <div id="radio-buttons">
+                    <div>
+                        <label for="ambangeg">Ambangeg Trail</label>
+                        <input id="ambangeg" type="radio" name="trail-preference" value="ambangeg" required>
+                    </div>
+                    <div>
+                    <label for="ambangeg">Akiki Trail</label>
+                    <input id="akiki" type="radio" name="trail-preference" value="akiki" required>
+                    </div>
+                    <div>
+                        <label for="ambangeg">Both</label>
+                        <input id="both" type="radio" name="trail-preference" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's go!</button>
+            </form>
+        </section>
     </main>
     <!-- Footer -->
      <footer>
