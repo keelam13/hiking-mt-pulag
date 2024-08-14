@@ -51,10 +51,6 @@ h1 {
     margin-bottom: .5em;
 }
 
-.active {
-    border-bottom: 1px solid #242925;
-}
-
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
