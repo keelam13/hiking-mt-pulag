@@ -289,6 +289,16 @@ footer>h3, h4 {
         background-color: #ffffff;
         color: #454b1b;
     }
+
+    /* Footer */
+    #contacts {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #contacts i {
+        padding-top: 5px;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -298,7 +308,28 @@ footer>h3, h4 {
         border-bottom: 1px solid #242925;
     }
 
-    /* Signup form */
-    
+    /* Signup */
 
+    /* Footer */
+    footer > ul {
+        width: 50%;
+    }
+
+    #contact {
+        top: 10px;
+    }
+
+    #social-networks {
+        position: relative;
+        left: 500px;
+        bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Footer */
+
+    #social-networks {
+        left: 700px;
+    }
 }
