@@ -108,6 +108,10 @@ nav {
     padding-left: 10px;
 }
 
+#cover-text > h3 {
+    font-size: 90%;
+}
+
 /* Main Content */
 main {
     /* Make main element take up any surplus space to push footer down */
