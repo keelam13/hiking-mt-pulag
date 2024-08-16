@@ -301,10 +301,14 @@ footer>h3, h4 {
     }
 
     /* Footer */
+    footer > div {
+        column-count: 2;
+    }
     #contacts {
         text-align: center;
         display: flex;
         justify-content: space-evenly;
+        padding-top: 15px;
     }
     
     #contacts i {
@@ -324,25 +328,4 @@ footer>h3, h4 {
     /* Signup */
 
     /* Footer */
-    footer > ul {
-        width: 50%;
-    }
-
-    #contact {
-        top: 10px;
-    }
-
-    #social-networks {
-        position: relative;
-        left: 500px;
-        bottom: 30px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    /* Footer */
-
-    #social-networks {
-        left: 700px;
-    }
 }
