@@ -36,7 +36,7 @@
         </section>
     </header>
     <!-- Main content -->
-    <main id="main-bg">
+    <main>
         <section id="about-us" class="main-content">
             <h2 id="aboutus">About Us</h2>
             <p>Want to go hiking but no one to go with or don't know where to go to? Well, look no more! Join us in conquering the 
@@ -70,6 +70,7 @@
         <section id="trail" class="main-content">
             <h2 class="hidden-header">Trails</h2>
             <div id="easy-trail">
+                <div>
                 <h3>Ambangeg Trail <i class="fa-solid fa-person-hiking"></i></h3>
                 <p>The easy trail starts from Ambangeg, Bokod, Benguet, where hikers are brought 
                 up to the ranger's station in Babalak, Kabayan by a vehicle. From there, the hike takes
@@ -77,25 +78,28 @@
                 <br>
                 <p>Every first saturday of the month</p>
                 <p>13:30</p>
-            </div>
-            <div class="google-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1618.8121864432321!2d120.8327687239396!3d16.520494707127668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391b3b0a352d14f%3A0xdc8e788ce30380bf!2sMount%20Pulag%20National%20Park%20Protected%20Area%20Office!5e0!3m2!1sde!2sde!4v1723646665720!5m2!1sde!2sde" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                </div>
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1618.8121864432321!2d120.8327687239396!3d16.520494707127668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391b3b0a352d14f%3A0xdc8e788ce30380bf!2sMount%20Pulag%20National%20Park%20Protected%20Area%20Office!5e0!3m2!1sde!2sde!4v1723646665720!5m2!1sde!2sde" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                </div>
             </div>
             <br>
             <div id="killer-trail">
+                <div>
                 <h3>Akiki Trail <i class="fa-solid fa-person-hiking"></i></h3>
                 <p>Dubbed as the Killer trail because of about 10 hour hike on a very steep trail (60-70 degree
                 slope). The jump-off point is at Duacan, Kabayan, Benguet. For experienced hikers.</p>
                 <br>
                 <p>Every last saturday of the month</p>
                 <p>05:00</p>
-            </div>
-            <div class="google-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29074.769709200824!2d120.81844269842892!3d16.612946220370944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391b5a36420cd6d%3A0x40c686dc82733875!2sMt.%20Pulag%20National%20Park%20Akiki%20Trail%20Jump%20Off%20Point!5e0!3m2!1sde!2sde!4v1723646530264!5m2!1sde!2sde" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29074.769709200824!2d120.81844269842892!3d16.612946220370944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391b5a36420cd6d%3A0x40c686dc82733875!2sMt.%20Pulag%20National%20Park%20Akiki%20Trail%20Jump%20Off%20Point!5e0!3m2!1sde!2sde!4v1723646530264!5m2!1sde!2sde" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
         <br>
@@ -113,16 +117,16 @@
                 <br>
                 <div id="radio-buttons">
                     <div>
-                        <label for="ambangeg">Ambangeg Trail</label>
                         <input id="ambangeg" type="radio" name="trail-preference" value="ambangeg" required>
+                        <label for="ambangeg">Ambangeg Trail</label>
                     </div>
                     <div>
-                    <label for="ambangeg">Akiki Trail</label>
-                    <input id="akiki" type="radio" name="trail-preference" value="akiki" required>
+                        <input id="akiki" type="radio" name="trail-preference" value="akiki" required>
+                        <label for="ambangeg">Akiki Trail</label>
                     </div>
                     <div>
-                        <label for="ambangeg">Both</label>
                         <input id="both" type="radio" name="trail-preference" value="both" required>
+                        <label for="ambangeg">Both</label>
                     </div>
                 </div>
                 <button type="submit" class="join-button">Let's go!</button>

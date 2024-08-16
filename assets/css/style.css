@@ -273,6 +273,11 @@ footer>h3, h4 {
         text-align: center;
      }
 
+     /* Trails */
+     #trail > div {
+        column-count: 2;
+     }
+
      /* Signup form*/
      #signup {
         background-position: center;
@@ -313,6 +318,8 @@ footer>h3, h4 {
     #menu a:hover{
         border-bottom: 1px solid #242925;
     }
+
+    /* Trails */
 
     /* Signup */
 
