@@ -9,7 +9,7 @@
 
 /* General styles */
 body {
-    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
 
@@ -33,7 +33,6 @@ body {
 
 #topnavi a {
     text-decoration: none;
-    color: inherit;
     letter-spacing: 1px;
     color: #242925;
 }
@@ -123,6 +122,7 @@ main {
 }
 
 /* Gallery */
+
 div.scroll-gallery {
     background-color: rgba(245, 245, 245, .5);
     overflow: auto;
@@ -130,8 +130,10 @@ div.scroll-gallery {
     padding: 10px 5px;
   }
   
-div .scroll-gallery img {
+div.scroll-gallery img {
     padding: 5px;
+    width: 300px;
+    height: 200px;
   }
 
 .hidden-header {
