@@ -141,9 +141,10 @@ div.scroll-gallery img {
 }
 
 /* Trail */
-.google-map {
-    padding-bottom: 50%;
-    position: relative;
+
+#trail {
+    display: flex;
+    flex-direction: column;
 }
 
 .google-map iframe {
@@ -151,7 +152,6 @@ div.scroll-gallery img {
     width: 100%;
     left: 0;
     top: 0;
-    position: absolute;
 }
 
 /* Signup form */
@@ -289,8 +289,8 @@ footer > h3, h4 {
       }
 
      /* Trails */
-     #trail > div {
-        column-count: 2;
+     #trail {
+        padding: 0 15%;
      }
 
      /* Signup form*/
@@ -342,7 +342,7 @@ footer > h3, h4 {
     div.scroll-gallery img {
         width: 500px;
         height: 300px;
-        
+
     /* Trails */
 
     /* Signup */
