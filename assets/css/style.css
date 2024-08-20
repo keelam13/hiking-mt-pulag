@@ -121,6 +121,10 @@ main {
     padding: 10px;
 }
 
+#what-to-bring {
+    text-align: justify;
+    padding-left: 10%;
+}
 /* Gallery */
 
 div.scroll-gallery {
@@ -145,6 +149,7 @@ div.scroll-gallery img {
 #trail {
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
 }
 
 .google-map iframe {
