@@ -115,6 +115,12 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    background-image: url("../images/logo-black.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: color-dodge;
+    background-color: #e3e3e3;
 }
 
 .main-content {
@@ -124,6 +130,10 @@ main {
 #what-to-bring {
     text-align: justify;
     padding-left: 10%;
+}
+
+#what-to-bring > ul {
+    list-style-type: circle;
 }
 /* Gallery */
 
