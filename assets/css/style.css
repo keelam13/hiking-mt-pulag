@@ -282,6 +282,11 @@ footer > h3, h4 {
      #about-us {
         text-align: center;
      }
+     /* Gallery */
+     div.scroll-gallery img {
+        width: 350px;
+        height: 250px;
+      }
 
      /* Trails */
      #trail > div {
@@ -332,7 +337,12 @@ footer > h3, h4 {
     #menu a:hover{
         border-bottom: 1px solid #242925;
     }
-
+    
+    /* Gallery */
+    div.scroll-gallery img {
+        width: 500px;
+        height: 300px;
+        
     /* Trails */
 
     /* Signup */
