@@ -121,6 +121,7 @@ main {
     background-position: center;
     background-blend-mode: color-dodge;
     background-color: #e3e3e3;
+    background-position-y: 20%;
 }
 
 .main-content {
