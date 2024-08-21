@@ -132,8 +132,8 @@ main {
 #what-to-bring > ul {
     list-style-type: circle;
 }
-/* Gallery */
 
+/* Gallery */
 div.scroll-gallery {
     background-color: rgba(245, 245, 245, .5);
     overflow: auto;
@@ -157,6 +157,12 @@ div.scroll-gallery img {
     display: flex;
     flex-direction: column;
     margin-top: 2%;
+}
+
+#trail img {
+    width: 50%;
+    height: 50%;
+    align-content: center;
 }
 
 .google-map iframe {
