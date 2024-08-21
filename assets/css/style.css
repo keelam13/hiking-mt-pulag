@@ -160,8 +160,8 @@ div.scroll-gallery img {
 }
 
 #trail img {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     align-content: center;
 }
 
@@ -274,6 +274,9 @@ footer > h3, h4 {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    body {
+        font-size: larger;
+    }
     /* Header */
     nav {
         display: block;
