@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 
     /* Generic project style */
-    color: #3a3a3a;
+    color: #000a14;
     font-family: 'Lato', sans-serif;
 }
 
@@ -34,7 +34,7 @@ body {
 #topnavi a {
     text-decoration: none;
     letter-spacing: 1px;
-    color: #242925;
+    color: #000a14;
 }
 
 h1 {
@@ -115,8 +115,8 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    background: #e3e3e3 url("../images/logo-black.png") center/cover no-repeat fixed;
-    background-blend-mode: color-dodge;
+    background: #D0F0C0 url("../images/logo-black.png") center/cover no-repeat fixed;
+    background-blend-mode: soft-light;
     background-position-y: 20%;
 }
 
@@ -125,7 +125,7 @@ main {
 }
 
 #what-to-bring {
-    text-align: justify;
+    text-align: left;
     padding-left: 10%;
 }
 
