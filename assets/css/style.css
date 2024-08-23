@@ -124,6 +124,15 @@ main {
     padding: 10px;
 }
 
+.main-content > h2 {
+    text-align: center;
+}
+
+/* About us */
+#aboutus {
+    padding: 10% 5%;
+    text-align: justify;
+}
 #what-to-bring {
     text-align: left;
     padding-left: 10%;
@@ -162,15 +171,13 @@ div.scroll-gallery img {
 #trail img {
     width: 100%;
     height: 100%;
-    align-content: center;
 }
 
 .google-map iframe {
     width: 100%;
     height: 100%;
     border: 0;
-    left: 0;
-    top: 0;
+    padding-top: 5%;
 }
 
 /* Signup form */
@@ -312,9 +319,12 @@ footer > h3, h4 {
         margin-top: 0;
      }
 
-     #about-us {
+    /* About us */
+    #aboutus {
         text-align: center;
-     }
+        padding: 5% 15%;
+    }
+
      /* Gallery */
      div.scroll-gallery img {
         width: 350px;
@@ -375,7 +385,7 @@ footer > h3, h4 {
     div.scroll-gallery img {
         width: 500px;
         height: 300px;
-
+    }
     /* Trails */
 
     /* Signup */
