@@ -171,7 +171,7 @@ div.scroll-gallery img {
 }
 
 #coming-soon {
-    border: 1px solid red;
+    border: 2px solid red;
     animation: blink 2s linear infinite;
     padding: 5px;
 }
@@ -369,15 +369,6 @@ footer > h3, h4 {
         bottom: 10px;
     }
 
-    .text-input:hover {
-        border-color: #71e121f8;
-    }
-
-    .join-button:hover {
-        background-color: #ffffff;
-        color: #454b1b;
-    }
-
     /* Footer */
     footer > div {
         column-count: 2;
@@ -406,9 +397,21 @@ footer > h3, h4 {
         width: 500px;
         height: 300px;
     }
+
     /* Trails */
 
     /* Signup */
+    .text-input:hover {
+        border-color: #71e121f8;
+    }
+
+    .join-button:hover {
+        background-color: #ffffff;
+        color: #454b1b;
+    }
 
     /* Footer */
+    #social-networks i:hover {
+        color: #0C6dd4;
+    }
 }
