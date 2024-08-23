@@ -170,6 +170,24 @@ div.scroll-gallery img {
     text-align: justify;
 }
 
+#coming-soon {
+    border: 1px solid red;
+    animation: blink 2s linear infinite;
+    padding: 5px;
+}
+
+@keyframes blink { 50% { border-color:#fff ; }  }
+
+#coming-soon > h2 {
+    color: red;
+    text-align: center;
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+    50% { opacity: 0; }
+  }
+
 #trail img {
     width: 100%;
     height: 100%;
