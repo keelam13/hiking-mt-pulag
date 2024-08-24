@@ -132,7 +132,7 @@ main {
 /* About us */
 #aboutus {
     padding: 10% 5%;
-    text-align: justify;
+    text-align: center;
 }
 #what-to-bring {
     text-align: left;
@@ -167,7 +167,11 @@ div.scroll-gallery img {
     display: flex;
     flex-direction: column;
     margin-top: 2%;
-    text-align: justify;
+    text-align: center;
+}
+
+.sched {
+    text-align: left;
 }
 
 #coming-soon {
@@ -412,7 +416,7 @@ footer > h3, h4 {
 
     .join-button:hover {
         background-color: #0C6dd4;
-        color: #454b1b;
+        color: #ffffff;
     }
 
     /* Footer */
