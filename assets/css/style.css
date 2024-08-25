@@ -116,9 +116,9 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    background: #D0F0C0 url("../images/logo-black.png") center/cover no-repeat fixed;
+    background: #D0F0C0 url("../images/logo-no-background.png") center/cover no-repeat fixed;
     background-blend-mode: soft-light;
-    background-position-y: 20%;
+    background-position-y: -15%;
 }
 
 .main-content {
