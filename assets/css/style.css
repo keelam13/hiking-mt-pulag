@@ -10,7 +10,6 @@
 /* General styles */
 body {
     min-width: 100%;
-    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
 
@@ -268,8 +267,8 @@ div.scroll-gallery img {
 
 /* Response page */
 #response-text {
-    min-height: 45vh;
-    padding-top: 5%;
+    min-height: 100%;
+    padding: 5% 10% 8%;
     text-align: center;
 }
 
