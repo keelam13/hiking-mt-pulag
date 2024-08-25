@@ -10,7 +10,7 @@
 /* General styles */
 body {
     min-width: 100%;
-    min-height: 100%;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
 
@@ -162,7 +162,7 @@ div.scroll-gallery img {
     display: none;
 }
 
-/* Trail */
+/* Popular trails */
 
 #trail {
     display: flex;
@@ -267,7 +267,16 @@ div.scroll-gallery img {
 }
 
 /* Response page */
+#response-text {
+    min-height: 45vh;
+    padding-top: 5%;
+    text-align: center;
+}
 
+#response-text h2 {
+    font-size: 200%;
+    font-weight: 900;
+}
 
 
 /* Footer */
