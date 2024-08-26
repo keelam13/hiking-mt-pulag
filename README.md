@@ -1,131 +1,223 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mt. Pulag Hikers
 
-Welcome Keevin Aroco,
+Mt. Pulag Hikers website is created purposely for interested hikers to join in on the hikes to Mt. Pulag. It is designed to be responsive allowing users to view the site on a range of devices. It will also provide information about the organization.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+View Mt. Pulag Hikers on GitHub Pages
+---
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## CONTENTS
 
-## Gitpod Reminders
+* [User Experience](#user-experience-ux)
+  * [User Stories](#user-stories)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
 
-`python3 -m http.server`
+  * [Wireframes](#wireframes)
 
-A blue button should appear to click: _Make Public_,
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
 
-Another blue button should appear to click: _Open Browser_.
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
 
-A blue button should appear to click: _Make Public_,
+* [Testing](#testing)
 
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
 ---
 
-Happy coding!
+## User Experience (UX)
+
+### Initial Discussion
+Mt. Pulag Hikers is a small group of hikers who regularly hike up the 3rd highest mountain in the Philippines, and are constantly looking for like minded individuals who want to join them on the hikes. Members are a mix of beginners and experienced hikers who learn from each other through the hikes. 
+
+
+Through the help of social media, Mt. Pulag is getting noticed by avid hikers and non-hikers because of its pristine beauty. Dubbed as The playground of the gods, a lot of tourists are eager to conquer Mt. Pulag and experience what it has to offer.
+
+#### Key information for the site
+* What are the requirements in climbing Mt. Pulag.
+* What are the available trails to take and their level of difficulty.
+* How to join the group.
+* How to contact the group.
+* What to look forward to / updates.
+
+
+### User Stories
+
+#### Client Goals
+* To have the accessibility to view the site on a range of device screens.
+* To make it easy for potential joiners to know what Mt. Pulag Hikers is about, and how to join in on the hikes.
+* To have a glimpse of what they could experience and see during the hikes. 
+* To allow users to easily contact Mt. Pulag Hikers for any concerns.
+
+#### First Time Visitor Goals
+* I want to easily navigate through the website to find what I’m looking for.
+* I want to know the purpose of Mt. Pulag Hikers and how to take part in it.
+* I want to have an idea on what to expect to better prepare when joining.
+* I want to be able to see their social media.
+
+#### Returning Visitor Goals
+* I want to find up to date information regarding scheduled hikes and be able to join a new one.
+* I want to be able to easily contact Mt. Pulag hikers for questions I might have.
+
+#### Frequent Visitor Goals
+* I want to find new options in climbing Mt. Pulag.
+
+
+## Design
+
+### Colour Scheme
+
+The website uses the scheme to go with the colors of nature in the photography. The color palette was generated through the Coolors website.
+
+
+### Typography
+
+Fonts used for this site were imported from [Google Fonts](https://fonts.google.com/).
+* Lato
+* Oswald
+* Abel
+* Lobster
+
+### Imagery
+
+Photos of the trails, camp sites, and views from the trails and atop the summit were used in the website. Some of these photos are personal collections and some are taken from other hikers/photographers on the web, which I included in the [Credits](#credits) section.
+
+### Wireframes
+
+Wireframes are created for all the page sections using Balsamiq.
+
+
+#### Mobile devices
+* Home Page
+* Response Page
+
+#### Tablets
+* Home Page
+* Response Page
+
+#### Desktop
+* Home Page
+* Response Page
+
+## Features
+
+👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+
+This section can be used to explain what pages your site is made up of.
+
+### General features on each page
+
+If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+
+I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+
+### Future Implementations
+
+What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+
+### Accessibility
+
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+
+1. Using semantic HTML.
+2. Using descriptive alt attributes on images on the site.
+3. Providing information for screen readers where there are icons used and no text - such as the review ratings for books & footer icons.
+4. Ensuring that there is a sufficient colour contrast throughout the site.
+5. Ensuring menus are accessible by marking the current page as current for screen readers.
+
+## Technologies Used
+
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+* Balsamiq - Used to create wireframes.
+* Git - For version control.
+* Github - To save and store the files for the website.
+* Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, carousel, cards and form were used and modified. Additional CSS styling was also implemented in style.css.
+* Google Fonts - To import the fonts used on the website.
+* Font Awesome - For the iconography on the website.
+* Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+* Tiny PNG To compress images.
+* Birme To resize images and change to webp format.
+* Favicon.io To create favicon.
+* Am I Responsive? To show the website image on a range of devices.
+
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - Mt. Pulag Hikers
+
+To Deploy the site using GitHub Pages:
+1. Login (or signup) to Github.
+2. Go to the repository for this project, keelam13/mt-pulag-hikers
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the Mt. Pulag Hikers repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, keelam13/mt-pulag-hikers.
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the Mt. Pulag Hikers repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, keelam13/mt-pulag-hikers.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Testing
+
+Please refer to the TESTING.md file for all test-related documentation.
+
+## Credits
+
+
+
+### Code Used
+
+blink animation
+https://jsfiddle.net/umz8t/6490/
+https://stackoverflow.com/questions/51764992/blink-border-3-times-1-second-per-loop-in-css
+
+
+### Content
+
+The inspiration for the content came from the increasing number of hikers and tourists alike who want to climb Mt. Pulag.  
+
+###  Media
+
+
+  
+###  Acknowledgments
+
