@@ -24,7 +24,7 @@ View Mt. Pulag Hikers on GitHub Pages
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  * [Other Technologies used](#other-technologies-used)
 
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
@@ -134,9 +134,11 @@ Wireframes are created for all the page sections using Balsamiq.
 
 ## Features
 
+### General features
+
 The website only has a single page which is divided into three sections, which are accessible from the navigation menu (About us, Trails and Join us sections). A second page is also added as a response page which is shown once a user correctly fills out and submits the form on the Join Us section.
 
-### Navigation Bar
+#### Navigation Bar
 
 The main page has a responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the name of the hikers' group and to the right of the navigation bar are the links to the sections in the page (About us, Trails and Join us). 
 
@@ -158,7 +160,7 @@ On mobile devices, the dropdown menu only contains the link Back to Home page.
 
 ![Navbar response dropdown](documentation/navbarresponse2.png)
 
-### Hero Section
+#### Hero Section
 
 This section has a fixed background image which show a view of Mt. Pulag where the group climbs on a regular basis. It also contains a cover text with the tag Mt. Pulag is known for and the address.
 
@@ -169,6 +171,19 @@ This section has a fixed background image which show a view of Mt. Pulag where t
 * Hero section view on mobile devices
 
 ![Hero mobile](documentation/heromobile.png)
+
+#### Footer
+
+Both pages have a footer which contains a qoute from Edmund Hillary and social media icon links to facebook, instagram, youtube and tiktok. Icons were used to keep the footer clean and because they are universally recognisable. For users to be able to contact Mt. Pulag hikers, mobile phone numbers and email address are also shown alongside the social media icons. Icons are also animated on hover.
+
+* Footer view on larger screens
+
+![Footer Browser](documentation/footerbrow.png)
+
+* Footer view on mobile devices
+
+![Footer mobile](documentation/footermob.png)
+
 
 ### About us
 
@@ -217,21 +232,6 @@ A message welcoming the user to the team after submitting the form and lets them
 * Response page view on mobile devices
 
 ![Response page mobile](documentation/)
-
-### Footer
-
-Both pages have a footer which contains a qoute from Edmund Hillary and social media icon links to facebook, instagram, youtube and tiktok. Icons were used to keep the footer clean and because they are universally recognisable. For users to be able to contact Mt. Pulag hikers, mobile phone numbers and email address are also shown alongside the social media icons. Icons are also animated on hover.
-
-* Footer view on larger screens
-
-![Footer Browser](documentation/footerbrow.png)
-
-* Footer view on mobile devices
-
-![Footer mobile](documentation/footermob.png)
-
-
-### General features on each page
 
 
 ### Future Implementations
@@ -305,7 +305,7 @@ To clone the Mt. Pulag Hikers repository:
 
 ## Testing
 
-Please refer to the TESTING.md file for all test-related documentation.
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
 
 ## Credits
 
