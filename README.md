@@ -118,19 +118,11 @@ Wireframes are created for all the page sections using Balsamiq.
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
-
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
-
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
 
 ### Accessibility
 
@@ -138,9 +130,9 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 1. Using semantic HTML.
 2. Using descriptive alt attributes on images on the site.
-3. Providing information for screen readers where there are icons used and no text - such as the review ratings for books & footer icons.
+3. Providing information for screen readers where there are icons used and no text - e.g. social networks.
 4. Ensuring that there is a sufficient colour contrast throughout the site.
-5. Ensuring menus are accessible by marking the current page as current for screen readers.
+5. Ensuring menus are accessible by fixing it on top of the screen.
 
 ## Technologies Used
 
@@ -216,6 +208,26 @@ https://stackoverflow.com/questions/51764992/blink-border-3-times-1-second-per-l
 The inspiration for the content came from the increasing number of hikers and tourists alike who want to climb Mt. Pulag.  
 
 ###  Media
+
+Some of the images images used on the website are personal collection, and the other were taken from different bloggers who went to Mt. Pulag.
+
+* [Akiki trail](https://jamieinhernook.wordpress.com/wp-content/uploads/2016/12/2016-12-15-09-27-09.jpg);
+* [Akiki trail2](http://www.pinoymountaineer.com/2022/06/hiking-matters-701-my-third-akiki-ambangeg-dayhike-of-mt-pulag.html)
+* [Ambangeg trail2](https://tinamariejoy.blogspot.com/2016/06/our-freezing-quest-to-witness-mount.html)
+* [Eddet river, Ambangeg trail](https://jedtravelsblog.wordpress.com/2017/12/14/mt-pulag-2017/)
+* [Galaxy](https://www.aaronpalabyab.com/blog/2016/10/21/mt-pulag-akiki-trail-astrophotography)
+* [Mt. Pulag camp1](https://www.rappler.com/philippines/201044-mount-pulag-reopens-hikers-trekkers/)
+* [Mt. Pulag camp2](https://www.meloy.co/2013/03/
+* [Mt. Pulag cotton clouds, Mt. Pulag camp3](https://gypsettingfreespirit.wordpress.com/tag/mount-pulag/)camping-at-mount-pulag-ambangag-trail-slow-trekking-with-anywhere-philippines.html)
+* [Mt. Pulag freedom](https://pnmsadventures.weebly.com/mt-pulag-traverse.html)
+* [Mt. Pulag grassland](https://peakd.com/hive-194913/@ybanezkim26/mt-pulag-the-playground-of-the-gods-part-2)
+* [Mt. Pulag sunrise, Mt. Pulag grassland2, Mt. Pulag sun](https://loneprowler.com/2015/04/09/mt-pulag/)
+
+* [Mt. Pulag summit](https://hiketomountains.com/wp-content/uploads/2021/12/Mt-Pulag-4-768x560.jpg)
+* [Mt. Pulag milkyway](https://www.flickr.com/photos/jianphotography/8578765930)
+
+* [Sea of cloud hiker](https://dakilanglaagan.com/2017/09/18/mt-pulag-what-the-playground-of-gods-taught-us-about-taking-things-slowly-via-akiki-trail/)
+* [Tawangan trail](https://thirdworldtrekker.wordpress.com/2017/02/07/mt-pulag-via-tawangan/)
 
 
   
