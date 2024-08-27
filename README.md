@@ -346,3 +346,11 @@ Some of the images images used on the website are personal collection, and the o
   
 ###  Acknowledgments
 
+- The Almighty for the opportunity to do coding.
+- My family for their unending support.
+- My other half for the love and understanding.
+- Cici my girl for the inspiration.
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) my mentor for the advice, tips and guiding me through the project.
+- [Kera Cudmore](https://github.com/kera-cudmore) for the great help on constructing a README file.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
