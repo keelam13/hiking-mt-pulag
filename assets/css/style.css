@@ -12,7 +12,8 @@ body {
     min-width: 100%;
     display: flex;
     flex-direction: column;
-
+    min-height: 100vh;
+    
     /* Generic project style */
     color: #000a14;
     font-family: 'Lato', sans-serif;
@@ -21,7 +22,7 @@ body {
 /* Header */
 #topnavi {
     background-color: #fdfffc;
-    padding: .20rem 1rem;
+    padding: 0.2rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -116,8 +117,12 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    background: #D0F0C0 url("../images/logo-no-background.webp") center/contain no-repeat fixed;
+    width: 100%;
+    background: #CCE0CC url("../images/logo-no-background.webp") center/contain no-repeat fixed;
     background-blend-mode: soft-light;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
 }
 
 .main-content {
@@ -146,7 +151,7 @@ main {
 /* Gallery */
 div.scroll-gallery {
     background-color: rgba(245, 245, 245, .5);
-    overflow: auto;
+    overflow: scroll;
     white-space: nowrap;
     padding: 10px 5px;
   }
@@ -264,9 +269,11 @@ div.scroll-gallery img {
 
 /* Response page */
 #response-text {
-    min-height: 100%;
-    padding: 5% 10% 8%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     text-align: center;
+    padding-top: 15%;
 }
 
 #response-text h2 {
