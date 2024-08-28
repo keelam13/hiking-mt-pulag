@@ -2,7 +2,9 @@
 
 Mt. Pulag Hikers website is created purposely for interested hikers to join in on the hikes to Mt. Pulag. It is designed to be responsive allowing users to view the site on a range of devices. It will also provide information about the organization.
 
-View Mt. Pulag Hikers on GitHub Pages
+![Am I responsive?](documentation/amiresponsive.png)
+
+View Mt. Pulag Hikers on [GitHub Pages](https://github.com/keelam13/mt-pulag-hikers/deployments)
 ---
 
 ## CONTENTS
@@ -233,14 +235,19 @@ A message welcoming the user to the team after submitting the form and lets them
 
 * Response page view on larger screens
 
-![Response page browser](documentation/)
+![Response page browser](documentation/browres.png)
 
 * Response page view on mobile devices
 
-![Response page mobile](documentation/)
+![Response page mobile](documentation/mobres.png)
 
 
 ### Future Implementations
+
+* Add some maps for the popular trails.
+* Use images with better resolutions.
+* Improve quaity of commit messages and commit every after bit of changes.
+* Work on the website performances ob mobile devices and desktops.
 
 
 ### Accessibility
