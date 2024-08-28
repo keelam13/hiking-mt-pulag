@@ -122,11 +122,11 @@ main {
     background-blend-mode: soft-light;
     display: flex;
     flex-direction: column;
-    min-height: 50vh;
+    min-height: 52vh;
 }
 
 .main-content {
-    padding: 10px;
+    padding: 5px;
     line-height: 1.5;
 }
 
@@ -136,7 +136,7 @@ main {
 
 /* About us */
 #aboutus {
-    padding: 10% 5%;
+    padding: 10% 5% 5%;
     text-align: center;
 }
 #what-to-bring {
@@ -153,7 +153,7 @@ div.scroll-gallery {
     background-color: rgba(245, 245, 245, .5);
     overflow: scroll;
     white-space: nowrap;
-    padding: 10px 5px;
+    padding: 5px;
   }
   
 div.scroll-gallery img {
@@ -162,21 +162,25 @@ div.scroll-gallery img {
     height: 100%;
   }
 
-.hidden-header {
-    display: none;
-}
-
 /* Popular trails */
 
 #trail {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     margin-top: 2%;
-    text-align: center;
+}
+
+#trail > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sched {
-    text-align: left;
+    align-self: flex-start;
 }
 
 #coming-soon {
@@ -271,6 +275,7 @@ div.scroll-gallery img {
 #response-text {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
     text-align: center;
     padding-top: 15%;
@@ -283,6 +288,9 @@ div.scroll-gallery img {
 
 
 /* Footer */
+footer {
+    padding-bottom: 10px;
+}
 #contacts {
     text-align: center;
     display: block;
@@ -368,24 +376,24 @@ footer > h3, h4 {
     }
 
      /* Gallery */
-     div.scroll-gallery img {
+    div.scroll-gallery img {
         width: 40%;
         height: 40%;
-      }
+    }
 
      /* Popular Trails */
-     #trail {
+    #trail {
         padding: 0 15%;
-     }
+    } 
 
-     #trail img {
+    #trail img {
         width: 75%;
         height: 75%;
     }
     
 
      /* Signup form*/
-     #signup {
+    #signup {
         background-position: center;
         position: absolute;
     }
@@ -439,6 +447,10 @@ footer > h3, h4 {
     .join-button:hover {
         background-color: #0C6dd4;
         color: #ffffff;
+    }
+
+    #response-text {
+        padding-top: 10%;
     }
 
     /* Footer */

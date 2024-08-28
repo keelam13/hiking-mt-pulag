@@ -85,7 +85,7 @@ Through the help of social media, Mt. Pulag is getting noticed by avid hikers an
 ### Colour Scheme
 
 ![Color pallete](documentation/colorpalette.png)
-The website uses the scheme to go with the colors of nature in the photography. Tea green to stay true to the color of nature was used as a background color, and wizard blue as the clear skies as response color as highlights. The color palette was generated through the Coolors website.
+The website uses the scheme to go with the colors of nature in the photography. Jocular green was used as a background color to stay true to the color of nature, and wizard blue as the clear skies as hover effect color on the input fields and submit button, and as response color on the buttons. The color palette was generated through the Coolors website.
 
 
 ### Typography
@@ -118,6 +118,8 @@ Wireframes are created for all the page sections using Balsamiq.
 
 * Response Page
 
+![Mobile response page](documentation/mobreswf.png)
+
 #### Tablets
 * Home Page
 
@@ -125,12 +127,16 @@ Wireframes are created for all the page sections using Balsamiq.
 
 * Response Page
 
+![Tablet response page](documentation/tabreswf.png)
+
 #### Desktop
 * Home Page
 
-![bBrowser home page](documentation/browser-wireframe.png)
+![Browser home page](documentation/browser-wireframe.png)
 
 * Response Page
+
+![Browser response page](documentation/broreswf.png)
 
 ## Features
 
