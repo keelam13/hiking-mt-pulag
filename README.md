@@ -245,9 +245,11 @@ A message welcoming the user to the team after submitting the form and lets them
 ### Future Implementations
 
 * Add some maps for the popular trails.
+* Add link to the email address.
 * Use images with better resolutions.
 * Improve quaity of commit messages and commit every after bit of changes.
-* Work on the website performances ob mobile devices and desktops.
+* Work on the website performances on mobile devices and desktops.
+* Proper use of the flex box.
 
 
 ### Accessibility
@@ -279,6 +281,7 @@ HTML and CSS were used to create this website.
 * [Favicon.io](https://favicon.io/) To create favicon.
 * [Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 * [Coolors](https://coolors.co/) was used to create the color palette.
+* [EzGif](https://ezgif.com) was used to resize GIF images.
 
 ## Deployment & Local Development
 
