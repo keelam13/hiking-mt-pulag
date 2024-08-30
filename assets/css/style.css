@@ -118,7 +118,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     width: 100%;
-    background: #CCE0CC url("../images/logo-no-background.webp") center/contain no-repeat fixed;
+    background: #fdfffc url("../images/logo-no-background.webp") center/contain no-repeat fixed;
     background-blend-mode: soft-light;
     display: flex;
     flex-direction: column;
@@ -377,6 +377,7 @@ footer > h3, h4 {
     /* Main content */
     main {
         margin-top: 0;
+        background-color: #cce0cc;
     }
 
     /* About us */
