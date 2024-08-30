@@ -65,10 +65,8 @@ Aside from testing the website of its responsiveness using the dev tools, the [A
     ![Response Page HTML Validator](documentation/validator_response_html.png)
     
 + ### CSS
-  No errors but 1 warning were found when passing through the official W3C (Jigsaw) validator:
+  No errors or warning were found when passing through the official W3C (Jigsaw) validator:
     
-    - Warning: "Imported style sheets are not checked in direct input and file upload modes." 
-
     ![CSS Validator](documentation/validator_css.png)
 
 
