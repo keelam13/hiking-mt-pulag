@@ -282,6 +282,7 @@ HTML and CSS were used to create this website.
 * [Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 * [Coolors](https://coolors.co/) was used to create the color palette.
 * [EzGif](https://ezgif.com) was used to resize GIF images.
+* [Design.com](https://www.design.com/) wasused to design the logo.
 
 ## Deployment & Local Development
 
