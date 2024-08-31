@@ -330,6 +330,7 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 * [Image gallery with horizontal scroll](https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp)
 * [Fading image](https://www.shecodes.io/athena/24883-how-to-create-a-fading-image-using-css)
 * [Blink animation](https://jsfiddle.net/umz8t/6490/https://stackoverflow.com/questions/51764992/blink-border-3-times-1-second-per-loop-in-css)
+* [Refresh page metadata](https://github.com/IuliiaKonovalova/animal_shelter/blob/main/response.html)
 
 
 ### Content
@@ -368,5 +369,5 @@ Some of the images images used on the website are personal collection, and the o
 - Cici my girl for the inspiration.
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) my mentor for the advice, tips and guiding me through the project.
 - [Kera Cudmore](https://github.com/kera-cudmore) for the great help on constructing a README file.
-- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Code Institute](https://codeinstitute.net/) lessons, tutors and Slack community members for their support and help.
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
