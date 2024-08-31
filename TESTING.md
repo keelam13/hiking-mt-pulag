@@ -50,7 +50,54 @@ Aside from testing the website of its responsiveness using the dev tools, the [A
 | Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
 | Back to home page | Click the "Back to home page" link | The user is redirected to the home page | Yes | Yes | - |
 
+## Testing User Stories
+
+* First Time Visitors
+  
+  * I want to easily navigate through the website to find what I’m looking for.
+  The navigation bar is fixed on top of the page, which users can easily see and use when they want to go to a certain section of the page.
+
+  ![Navigation menu for mobile devices](documentation/navigation_mob.png)
+  ![Navigation menu for desktop](documentation/navigation_desktop.png)
+
+  * I want to know the purpose of Mt. Pulag Hikers and how to take part in it.
+  The About us section provides users some information about the site and what it offers, and the Join us section gives the users the opportunity to take part in it.
+
+  ![About us section of website](documentation/user_aboutus.png)
+  ![Join us section of website](documentation/user_joinus.png)
+
+   * I want to have an idea on what to expect to better prepare when joining.
+  The About us section also contains What you'll need subsection where the things needed for the climb is listed, and what to see subsection which is a gallery of photos, from which the users may get an idea what to expect from the climb.
+
+   ![What you'll need and what to see sections of the website](documentation/user_expectations.png)
+
+
+  * I want to be able to see their social media.
+  The footer contains icons of social media, which users can click and will lead them to the accounts of the group.
+
+  ![About us and join us section of website](documentation/user_socmed.png)
+
+* Returning Visitors
+
+  * I want to find up to date information regarding scheduled hikes and be able to join a new one.
+  The Popular trails section provides information on the trails users may consider taking when climbing the mountain, and also when the climb takes place.
+
+![Popular trails section](documentation/user_sched.png)
+
+  * I want to be able to easily contact Mt. Pulag hikers for questions I might have.
+The group is easily contacted in various ways, it can be through filling out the Join us form, by calling the mobile number, writing to the email address or through the social media acounts.
+
+  ![Contacting Mt. Pulag Hikers](documentation/user_contacts.png)
+  
+* Frequent Visitors
+
+  * I want to find new options in climbing Mt. Pulag.
+At the end of the Popular trail section is a subsection Soon to open which contains information of new route for climbers.
+
+  ![Soon to open section](documentation/user_update.png)
+  
 ---
+
 ## Validator testing
 + ### HTML
   #### Home Page
@@ -111,7 +158,11 @@ Aside from testing the website of its responsiveness using the dev tools, the [A
     3. The whole page had a width overflow.
         
         *Solution:* Min-width of the body element was changed to 100vh.
-    ---
+
+    4. The footer grows up that the main content in the response page ist compressed and cannot be seen.
+
+        *Solution:* Min-height of the body element was set to 100vh and the main element to 52vh.
+
 + ### Unsolved bugs
 
     - The padding or the spacing changes with Firefox browser.
